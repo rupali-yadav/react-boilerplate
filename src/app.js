@@ -22,6 +22,7 @@ import AppRouter from './routers/AppRouter';
 const store = configureStore();
 
 console.log("app.js");
+console.log("app.js");
 const jsx = (
     <Provider store={store}>
         <AppRouter />    
