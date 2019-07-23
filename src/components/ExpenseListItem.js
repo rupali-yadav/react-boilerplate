@@ -9,6 +9,6 @@ const ExpenseListItem = ({dispatch,description, note, amount,id, createdAt}) =>(
       <p>{note}</p>
     </div>
 );
-// no need of mapstatetoprops function coz we just want to acess disptach method off the store
+// no need of mapstatetoprops function coz we just want to access disptach method off the store
 
 export default ExpenseListItem;
