@@ -8,9 +8,9 @@ const ExpenseListItem = ({dispatch,description, note, amount,id, createdAt}) =>(
       <p> 
           <span>Rs. {numeral(amount).format('0.000')}</span> 
           -
-          <span>{moment(createdAt).format('MMMM Do, YYYY')}</span>
+           <span>{moment(createdAt).format('MMMM Do, YYYY')}</span>
       </p>
-      <p>{note && <p>note- {note}</p>}</p>
+      {note && <p>note- {note}</p>}
     </div>
 );
 // no need of mapstatetoprops function coz we just want to access disptach method off the store

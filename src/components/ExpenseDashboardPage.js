@@ -1,10 +1,11 @@
 import React from 'react';
 import ConnectedExpenseList from './ExpenseList';
 import ConnectedExpenseListFilters from './ExpenseListFilters';
+import ConnectedExpensesSummary from "./../components/ExpensesSummary";
 
 const ExpenseDashboardPage = () => (
     <div>
-        hi this is the dashboard page
+        <ConnectedExpensesSummary />
         <ConnectedExpenseListFilters/>
         <ConnectedExpenseList/>
     </div>
